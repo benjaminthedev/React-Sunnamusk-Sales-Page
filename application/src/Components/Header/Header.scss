@@ -1,0 +1,136 @@
+.header__top {
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+// find a store
+.findAStore{
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color:#858585;
+    font-weight: 400;
+    font-family: "NexaRegular", serif;
+    line-height: 17px;
+    letter-spacing: unset;
+    margin-top: 10px;
+}
+
+img.findIcon {
+    width: 25px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+a.loginLink {
+    text-decoration: none;
+    font-size: 14px;
+    color:#858585;
+    font-weight: 400;
+    font-family: "NexaRegular",
+    serif;
+    line-height: 17px;
+    letter-spacing: unset;
+    margin-top: 10px;
+}
+
+
+/* Menu */
+
+.menu__hr {
+    border: 1px solid #dadada;
+    margin-top:30px ;
+}
+
+
+.menu__list ul {
+    display: flex;
+    justify-content: space-around;
+
+    & li{
+        list-style-type: none;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        
+        
+        & a {
+            font-family: "nexa";
+            text-decoration: none;
+            font-size: 11px;
+            line-height: 13px;
+            letter-spacing: .15em;
+            color: #000;
+            min-height: 40px;
+        
+            &:hover{
+                color: #a48160;
+                text-decoration: underline;
+            }
+        
+        }
+    }
+}
+
+
+.nav-tp {
+    padding: 10px 25px;
+    text-align: center;
+    background: #f4f4f4;
+    width: 100%;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+    span {
+        text-decoration: underline;
+        font-weight: 700;
+    }
+
+    a {
+        position: relative;
+        top: -2px;
+    }
+}
+
+// Responsive Styles
+
+// // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .header__findAStore,
+    .header__loginLink,
+    .menu__list {
+        display: none;
+    }
+
+    .header__logo{
+        margin-bottom: 20px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .menu__list{
+        display: none;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+        .menu__list {
+            display: none;
+        }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+}
