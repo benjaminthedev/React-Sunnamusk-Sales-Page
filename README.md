@@ -10,5 +10,7 @@ The full Sunnamusk website is going to be a headless CMS using WP as the CMS and
 
 You can however, see the landing sales page here:
 
-https://goldendustsm.netlify.app/
+<a href="https://goldendustsm.netlify.app/" target="_blank">Visit Sales Page</a>
+
+
 
